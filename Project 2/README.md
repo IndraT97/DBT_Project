@@ -11,8 +11,8 @@ In this project, I will go through a real-world Airbnb project where I will use 
 
 ## 📊 Concept and Learning
 
-I have collated everything I have learned so far on various topics related to dbt
-Please refer the learning text document
+I have collated everything I have learned so far on various topics related to dbt.
+Please refer the Notes pdf
 
 <p align="center">
   <img src="https://github.com/IndraT97/DBT_Project/blob/master/Project%202/Images/input_schema.png">
