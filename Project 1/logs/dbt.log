@@ -1,0 +1,30 @@
+[0m14:17:34.127177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027431557190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027433F42710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027433F42500>]}
+
+
+============================== 14:17:34.134693 | baa3b115-9564-4908-921e-af62380993eb ==============================
+[0m14:17:34.134693 [info ] [MainThread]: Running with dbt=1.8.3
+[0m14:17:34.135695 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Indra\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m14:17:34.180090 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Indra/.dbt')}
+[0m14:17:34.181221 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:18:10.793955 [debug] [MainThread]: Starter project path: C:\Users\Indra\anaconda3\envs\dbtproject\lib\site-packages\dbt\include\starter_project
+[0m14:18:10.825187 [info ] [MainThread]: 
+Your new dbt project "dbt_new_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:18:10.826185 [info ] [MainThread]: Setting up your profile.
+[0m14:26:22.131223 [info ] [MainThread]: Profile dbt_new_project written to C:\Users\Indra\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:26:22.132733 [debug] [MainThread]: Command `dbt init` succeeded at 14:26:22.132733 after 528.15 seconds
+[0m14:26:22.133740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027431557190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027433F42710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027433F3BD00>]}
+[0m14:26:22.133740 [debug] [MainThread]: Flushing usage events

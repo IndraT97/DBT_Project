@@ -1,0 +1,66 @@
+[0m13:19:07.593793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282036670D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028206029330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028206029150>]}
+
+
+============================== 13:19:07.601390 | 841adbe5-06f6-49ce-805c-9fa2323e7f10 ==============================
+[0m13:19:07.601390 [info ] [MainThread]: Running with dbt=1.8.4
+[0m13:19:07.602411 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Indra\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:21:00.294405 [debug] [MainThread]: Starter project path: C:\Users\Indra\anaconda3\envs\dbtproject\lib\site-packages\dbt\include\starter_project
+[0m13:21:00.327759 [info ] [MainThread]: 
+Your new dbt project "Airbnb_berlin" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:21:00.328765 [info ] [MainThread]: Setting up your profile.
+[0m13:32:04.229331 [info ] [MainThread]: Profile Airbnb_berlin written to C:\Users\Indra\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:32:04.232849 [debug] [MainThread]: Command `dbt init` succeeded at 13:32:04.231340 after 776.74 seconds
+[0m13:32:04.233860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282036670D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028206029330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282060290F0>]}
+[0m13:32:04.234860 [debug] [MainThread]: Flushing usage events
+[0m13:36:58.396468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158C8C87160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158CB673DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158CB673FD0>]}
+
+
+============================== 13:36:58.404249 | b55f2a7d-8997-433a-91a6-247d29c048dd ==============================
+[0m13:36:58.404249 [info ] [MainThread]: Running with dbt=1.8.4
+[0m13:36:58.405250 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Indra\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:36:58.446300 [info ] [MainThread]: dbt version: 1.8.4
+[0m13:36:58.447810 [info ] [MainThread]: python version: 3.10.14
+[0m13:36:58.447810 [info ] [MainThread]: python path: C:\Users\Indra\anaconda3\envs\dbtproject\python.exe
+[0m13:36:58.449225 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:36:59.337587 [info ] [MainThread]: Using profiles dir at C:\Users\Indra\.dbt
+[0m13:36:59.338586 [info ] [MainThread]: Using profiles.yml file at C:\Users\Indra\.dbt\profiles.yml
+[0m13:36:59.338586 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Indra\OneDrive\Desktop\New Folder\DBT Project\Project 2\dbt_project.yml
+[0m13:36:59.340010 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:36:59.341016 [debug] [MainThread]: Command `dbt debug` failed at 13:36:59.341016 after 1.06 seconds
+[0m13:36:59.342024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158C8C87160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158CB677A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158CB64C130>]}
+[0m13:36:59.342024 [debug] [MainThread]: Flushing usage events
+[0m13:41:44.042787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD553B70D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD57DA3E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD57DA2BF0>]}
+
+
+============================== 13:41:44.049857 | 99258318-7598-4544-8f71-a8291e6ccc48 ==============================
+[0m13:41:44.049857 [info ] [MainThread]: Running with dbt=1.8.4
+[0m13:41:44.050857 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Indra\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m13:41:44.083356 [info ] [MainThread]: dbt version: 1.8.4
+[0m13:41:44.085355 [info ] [MainThread]: python version: 3.10.14
+[0m13:41:44.085355 [info ] [MainThread]: python path: C:\Users\Indra\anaconda3\envs\dbtproject\python.exe
+[0m13:41:44.086355 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:41:44.825729 [info ] [MainThread]: Using profiles dir at C:\Users\Indra\.dbt
+[0m13:41:44.826756 [info ] [MainThread]: Using profiles.yml file at C:\Users\Indra\.dbt\profiles.yml
+[0m13:41:44.827766 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Indra\OneDrive\Desktop\New Folder\DBT Project\Project 2\dbt_project.yml
+[0m13:41:44.828765 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:41:44.831779 [debug] [MainThread]: Command `dbt debug` failed at 13:41:44.830765 after 0.89 seconds
+[0m13:41:44.832782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD553B70D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD58A07100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD58A06F50>]}
+[0m13:41:44.833781 [debug] [MainThread]: Flushing usage events
