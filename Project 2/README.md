@@ -6,5 +6,5 @@ Please refer the learning text document
 
 
 <p align="center">
-  <img src="https://github.com/IndraT97/Azure-Data-Engineering-ADF-DBX-CI-CD/blob/master/Images/MetaData%20Flow.png">
+  <img src="https://github.com/IndraT97/DBT_Project/blob/master/Project%202/Images/lineage.png">
 </p>
